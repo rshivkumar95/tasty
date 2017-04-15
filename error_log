@@ -1,0 +1,12 @@
+[13-Feb-2017 07:34:06 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/egnzrkde/tastytadkaa.com/td/ajax_refresh.php:4
+Stack trace:
+#0 /home/egnzrkde/tastytadkaa.com/td/ajax_refresh.php(4): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/egnzrkde/tastytadkaa.com/td/ajax_refresh.php(7): connect()
+#2 {main}
+  thrown in /home/egnzrkde/tastytadkaa.com/td/ajax_refresh.php on line 4
+[13-Feb-2017 07:34:21 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/egnzrkde/tastytadkaa.com/td/ajax_refresh.php:4
+Stack trace:
+#0 /home/egnzrkde/tastytadkaa.com/td/ajax_refresh.php(4): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/egnzrkde/tastytadkaa.com/td/ajax_refresh.php(7): connect()
+#2 {main}
+  thrown in /home/egnzrkde/tastytadkaa.com/td/ajax_refresh.php on line 4

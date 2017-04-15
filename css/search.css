@@ -1,0 +1,45 @@
+.input_container ul {
+    width: 76%;
+    margin-top: 55px;
+    margin-left:60px;   
+    font-size: 16px;
+    background-color: white;
+    position: absolute;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: left;
+    max-height: 300px;
+    overflow-y: scroll;
+    text-align: left;
+    z-index: 9999;
+    color: #000;
+}
+.input_container ul li
+{
+	padding: 5px;
+	border-bottom: 1px solid gray;
+}
+
+
+.input_container1 ul
+{
+    width: 76%;    
+    
+    margin-left:10%;
+    font-size: 16px;
+    background-color: white;    
+    position: absolute;    
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;   
+    
+    max-height: 300px;
+    overflow-y: scroll;
+    text-align: left;
+    z-index: 9999;
+    color: #000;
+}
+.input_container1 ul li
+{
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}

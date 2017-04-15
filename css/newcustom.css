@@ -1,0 +1,105 @@
+.inside:hover{
+
+ 		 border:1px solid red;
+ 		 border-radius: 5px;
+ 	}
+
+ 	.new-restaurant{
+           padding: 20px;
+
+    }
+
+    .restaurant-logo img
+    {
+          width:15%;
+          height: 15%;
+    }
+
+    .brand-tag{
+    	
+        position: absolute;
+    	left:0;
+    	top:0;
+    	width: 50px;
+    	height:50px;
+    	padding: none;
+    	
+    }
+    .restaurant-box .overlay{
+    display:none;
+}
+.restaurant-box:hover .overlay {
+    display:block;
+    
+    
+}
+    .overlay{
+    	/*background-image: url('../img/brand.png');*/
+        position: absolute;
+    	left:0;
+    	top:0;
+        right:0;
+    	
+    	padding: none;
+    	background-image:rgb(0,0,0,0.7);
+    }
+    .new-restaurant:hover .overlay{
+
+ 		 opacity: 1;
+ 	}
+    .brand-tag img{
+    	/*background-image: url('../img/brand.png');*/
+        width: 100%;
+        height:100%;
+
+    }
+
+   /* .new-restaurant:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.new-restaurant:hover:after {
+    opacity:1;
+}*/
+
+@media (min-width:320px)  { 
+
+.restaurant-logo img
+    {
+          width:80%;
+          height: 80%;
+          margin: 0 auto;
+    }
+
+    .restaurant-logo{
+        text-align: center;
+    }
+
+ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  {
+
+
+ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) {
+
+.restaurant-logo img
+    {
+          width:50%;
+          height: 50%;
+          margin: 0 auto;
+    }
+    .restaurant-logo
+    {
+          text-align: left;
+    }
+
+ /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

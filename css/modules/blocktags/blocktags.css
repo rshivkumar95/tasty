@@ -1,0 +1,13 @@
+.tags_block .block_content {
+  overflow: hidden; }
+  .tags_block .block_content a {
+    display: inline-block;
+    font-size: 13px;
+    color: #1b2d3b;
+    line-height: 16px;
+    background: #F2F2F2;
+    padding: 4px 6px;
+    border: 1px solid #DBDBDB;
+    float: left;
+    border-radius: 4px;
+    margin: 0 5px 5px 0; }

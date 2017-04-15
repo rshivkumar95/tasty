@@ -1,0 +1,77 @@
+
+
+:hov
+
+
+.cls
+
+element.style {
+}
+
+.page_wrapper_1 {
+    position: relative;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body#index.index.lang_en
+body {
+    font: italic 14px/21px Georgia,"Times New Roman",Times,serif;
+    color: #2f2f2f;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    -webkit-text-size-adjust: none;
+    min-width: 320px;
+    background: #333333;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

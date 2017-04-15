@@ -1,0 +1,53 @@
+#currencies-block-top {
+  display: inline-block;
+  padding: 10px 0;
+  position: relative; }
+  #currencies-block-top span.firstWord {
+    display: none; }
+  #currencies-block-top div.current {
+    color: #3F3F3F;
+    border: 1px solid #B6B6B6;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    line-height: 18px; }
+    @media (max-width: 479px) {
+      #currencies-block-top div.current {
+        text-align: center;
+        padding: 9px 5px 10px;
+        font-size: 11px; } }
+    #currencies-block-top div.current strong {
+      color: #3F3F3F; }
+    #currencies-block-top div.current:hover, #currencies-block-top div.current.active { }
+    #currencies-block-top div.current:after {
+      content: "\f0d7";
+      font-family: "FontAwesome";
+      font-size: 18px;
+      color: #3F3F3F;
+      padding-left: 5px; }
+      @media (max-width: 479px) {
+        #currencies-block-top div.current:after {
+          padding-left: 2px;
+          font-size: 13px;
+          line-height: 13px;
+          vertical-align: 0; } }
+  #currencies-block-top ul {
+    display: none;
+    border: 1px solid #b6b6b6;
+    border-radius: 3px;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    width: 122px;
+    background: #fff;
+    z-index: 2; }
+    #currencies-block-top ul li {
+      color: white;
+      line-height: 35px;
+      font-size: 13px; }
+      #currencies-block-top ul li a,
+      #currencies-block-top ul li > span {
+        padding: 0 10px 0 12px;
+        display: block;
+        color: #000; }
+        #currencies-block-top ul li.selected a{color: #fff;}
